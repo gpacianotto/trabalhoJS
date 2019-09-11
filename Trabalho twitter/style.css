@@ -1,0 +1,77 @@
+.container-1 {
+	display: flex;
+	align-items: flex-start;
+}
+.container-1 div{
+
+	
+	
+}
+.subcontainer-1 {
+	display: flex;
+}
+.subcontainer-1 {
+	
+	padding: 10px;
+	flex: 1;
+	direction: row;
+	margin-left: 115px;	
+
+}
+.subcontainer-tweet {
+
+	padding: 20px 15px;
+	flex: 1;
+	direction: row;
+	margin-left: 115px;
+	background-color: #15A4F1;
+	align-self: center;
+	border-radius: 30px;
+	text-align: center;
+
+
+}
+.subcontainer-cabecalho-pagina-inicial{
+	border: 1px #ccc solid;
+	margin-top: 0px;
+	padding-right: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+
+}
+.subcontainer-oqueestaacontecendo{
+	border: 1px #ccc solid;
+	padding-top: 7px;
+	padding-left: 15px;
+}
+.fonte-opcoes{
+	font-size: 20px;
+	margin-left: 10px;
+	font-family: fantasy;
+	margin-top: 7px;
+}
+.fonte-tweet-1{
+	font-size: 15px;
+	text-align: center;
+	color: #ffff;
+	font-family: fantasy;
+	align-self: center;
+}
+
+.box-1{
+	flex: 1;
+	align-self: right;
+}
+.box-2{
+	flex: 2;
+	margin-right: 10px;
+	margin-top: 0px;
+}
+.box-3{
+	flex: 2;
+	margin-left: 10px;
+	border: 1px #ccc solid;
+}
+.subbox-1{
+	flex: 1;
+}
