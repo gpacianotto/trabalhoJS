@@ -1,21 +1,21 @@
+a{
+    text-decoration: none;
+    color: black;
+}
+
 .container-1 {
 	display: flex;
 	align-items: flex-start;
 }
-.container-1 div{
 
-	
-	
-}
 .subcontainer-1 {
 	display: flex;
-}
-.subcontainer-1 {
-	
-	padding: 10px;
+	align-items: center;
+    justify-content: left;
+	padding: 10px 50px;
 	flex: 1;
 	direction: row;
-	margin-left: 115px;	
+	margin: 0;	
 
 }
 .subcontainer-tweet {
@@ -47,8 +47,9 @@
 .fonte-opcoes{
 	font-size: 20px;
 	margin-left: 10px;
-	font-family: fantasy;
+	font-family: Arial;
 	margin-top: 7px;
+	font-weight: bold;
 }
 .fonte-tweet-1{
 	font-size: 15px;
@@ -58,20 +59,8 @@
 	align-self: center;
 }
 
-.box-1{
-	flex: 1;
-	align-self: right;
+#icones{
+	height: 37px;
+    width: auto;
 }
-.box-2{
-	flex: 2;
-	margin-right: 10px;
-	margin-top: 0px;
-}
-.box-3{
-	flex: 2;
-	margin-left: 10px;
-	border: 1px #ccc solid;
-}
-.subbox-1{
-	flex: 1;
-}
+

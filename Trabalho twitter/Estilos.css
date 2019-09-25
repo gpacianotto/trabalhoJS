@@ -1,0 +1,96 @@
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.containers{
+    display: grid;
+    grid-template-columns: 25% 50% 25%;
+    align-items: flex-start;
+}
+
+#navbar{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    
+}
+
+#navbar2{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    border: 1px solid #F5F8FA;
+}
+#navbar3{
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
+
+/*===================== COLUNA 1 ===================== COLUNA 1 ===================== COLUNA 1 ===================== COLUNA 1 ================ */
+
+.menu{
+    display: flex;
+	align-items: center;
+    justify-content: flex-start;
+	padding: 5px 0px 15px 15% ;
+	flex-direction: row;
+    margin: 0;	
+    justify-items: center;
+}
+
+.tweetar{
+    background-color: #00acee;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 50px;
+    font-family: Arial;
+    font-weight: bold;
+    width: 60%;
+    height: 30px;
+}
+
+#icones{
+	height: 37px;
+    width: 37px;
+    float: left;
+}
+
+#textomenu{
+    display: flex;
+    padding: 0px 10px;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 18px;
+    justify-content: center;
+    align-items: center;
+    height: 37px;
+    width: auto;
+}
+
+#justificar{
+    text-align: center;
+    align-self: center;
+}
+
+
+
+
+/*===================== COLUNA 2 ===================== COLUNA 2 ===================== COLUNA 2 ===================== COLUNA 2 ================ */
+
+.pagina-inicial{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 15px 0 15px 15px;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 20px;
+    float: left;
+}
+
+#destaques{
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+/*===================== COLUNA 3 ===================== COLUNA 3 ===================== COLUNA 3 ===================== COLUNA 3 ================ */

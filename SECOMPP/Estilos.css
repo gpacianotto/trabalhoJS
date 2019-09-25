@@ -1,0 +1,110 @@
+html{
+    font-family: Arial;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+input{
+    height: 45px;
+    border: none;
+    padding-left: 5px;
+    margin: o;
+    margin-right: 20px;
+    font-size: 18px;
+    width: 450px;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.botaoheader{
+    margin: 10px;
+    font-size: 13px;
+}
+
+.google{
+    margin-top: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pesquisa{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border: solid;
+    border-width: 1px;
+    border-radius: 30px;
+    border-color: #E9E9E9; 
+    box-shadow: 1px 2px 4px rgb(0, 0, 0, .1); 
+}
+
+.formpesquisar{
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#campopesquisa:focus{
+    outline-width: 0px;
+
+}
+
+#lupa{
+    padding-left: 15px;
+    margin-right: 15px;
+    height: 15px;
+    width: auto;
+}
+
+#teclado{
+    height: 20px;
+    width: auto;
+}
+
+#mic{
+    height: 15px;
+    width: auto;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+#botoes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.botao{
+    margin: 0px 10px;
+    text-decoration: none;
+    background-color: #F4F0F0;
+    font-size: 14px;
+    color: #717070;
+    border: none;
+    padding: 15px 10px;
+    border-radius: 5px;
+}
+
+#apps{
+    height: 25px;
+    width: auto;
+}
+
+.login{
+    background-color: #4285F4;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 3px;
+}
