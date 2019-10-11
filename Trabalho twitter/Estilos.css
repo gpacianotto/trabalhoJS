@@ -3,6 +3,11 @@ a{
     color: black;
 }
 
+p{
+    font-family: Arial;
+    font-size: 15px;
+}
+
 .containers{
     display: grid;
     grid-template-columns: 23% 45% 32%;
@@ -47,11 +52,11 @@ a{
     background-color: #00acee;
     color: white;
     padding: 8px 15px;
-    border-radius: 50px;
+    border-radius: 70px;
     font-family: Arial;
     font-weight: bold;
     width: 90%;
-    height: 30px;
+    height: 20px;
 }
 
 #icones{
@@ -75,7 +80,7 @@ a{
 #justificar{
     text-align: center;
     align-self: center;
-    padding-top: 17px;
+    padding-top: 12px;
 }
 
 
@@ -97,7 +102,7 @@ a{
 
 #destaques{
     align-content: flex-end;
-    padding-left: 440px;
+    padding-left: 432px;
 }
 
 #tweets{
@@ -135,8 +140,35 @@ a{
 .esquerda{
     padding-left: 70px;
 }
-#esquerda{
+.esquerda2{
     padding-left: 170px;
+}
+.esquerda3{
+    padding-left: 100px;
+}
+
+#gap{
+    height: 10px;
+    background-color: #E1E8ED;
+}
+
+.post1{
+    border: 1px solid #F5F8FA;
+}
+
+.user{
+    color: #AAB8C2;
+}
+
+.perfil{
+    float: left;
+    padding: 10px;
+}
+
+.interacoes{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 
 /*===================== COLUNA 3 ===================== COLUNA 3 ===================== COLUNA 3 ===================== COLUNA 3 ================ */
