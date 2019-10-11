@@ -218,7 +218,7 @@ p{
 .conteiner_assuntos_para_voce{
 
     background-color: #F5F8FA;
-    height: 450px;
+    height: 58%;
     border-radius: 15px;
     margin-top: 20px;
 
@@ -284,4 +284,55 @@ p{
     padding-top: 13px;
     padding-bottom: 10px;
     padding-left: 12px;
+}
+
+.conteiner_quem_seguir{
+
+    background-color: #F5F8FA;
+    height: 450px;
+    border-radius: 15px;
+    margin-top: 20px;
+
+}
+.imagem_quem_seguir{
+    border-radius: 30px;
+    float: left;
+}
+.perfil_quem_seguir_texto{
+    font-size: 15px;
+    position: relative;
+    padding-left: 10px;
+    margin-top: 5px;
+    font-family: Arial;
+    font-weight: 900;
+    margin-bottom: 5px;
+
+}
+.arroba_quem_seguir_texto{
+    font-size: 15px;
+    position: relative;
+    padding-left: 10px;
+    margin-top: 5px;
+    font-family: Arial;
+    margin-bottom: 5px;
+    color: #6d7f8d;
+}
+.botao_seguir{
+    height: 70%;
+    width: 25%;
+    border-radius: 30px;
+    background-color: transparent;
+    border: 2px solid #1DA1F2;
+    float: right;
+    text-align: center;
+    color: #1DA1F2;
+    padding: 4px;
+    margin-top: -15px;
+    font-weight: 900;
+}
+.conteiner_quem_seguir{
+    background-color: #F5F8FA;
+    height: 32%;
+    border-radius: 15px;
+    margin-top: 20px;
 }
