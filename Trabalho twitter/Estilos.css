@@ -41,11 +41,12 @@ p{
     display: flex;
 	align-items: center;
     justify-content: flex-start;
-	padding: 5px 0px 15px 15% ;
-	flex-direction: row;
-    margin: 0;	
+    margin: 5px 0px 5px 15% ;
+    padding: 5px;
+	flex-direction: row;	
     justify-items: center;
     width: 100%;
+    border-radius: 50px;
 }
 
 .tweetar{
@@ -83,7 +84,9 @@ p{
     padding-top: 12px;
 }
 
-
+.over:hover{
+    background-color: rgb(232, 245, 254);
+}
 
 
 /*===================== COLUNA 2 ===================== COLUNA 2 ===================== COLUNA 2 ===================== COLUNA 2 ================ */
@@ -169,6 +172,13 @@ p{
     display: flex;
     flex-direction: row;
     align-items: center;
+}
+
+.imagens{
+    width: 400px;
+    height: auto;
+    border: 1px solid #F5F8FA;
+    border-radius: 20px;
 }
 
 /*===================== COLUNA 3 ===================== COLUNA 3 ===================== COLUNA 3 ===================== COLUNA 3 ================ */
