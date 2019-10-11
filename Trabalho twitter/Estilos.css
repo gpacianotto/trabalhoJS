@@ -23,6 +23,8 @@ a{
 #navbar3{
     grid-column-start: 3;
     grid-column-end: 4;
+    display: flex;
+    
 }
 
 /*===================== COLUNA 1 ===================== COLUNA 1 ===================== COLUNA 1 ===================== COLUNA 1 ================ */
@@ -122,3 +124,22 @@ a{
 }
 
 /*===================== COLUNA 3 ===================== COLUNA 3 ===================== COLUNA 3 ===================== COLUNA 3 ================ */
+
+.conteiner-direita{
+    display: block;
+    width: 100%;
+    border: 2px;
+    margin-right: 150px;
+    margin-left: 30px;
+}
+
+.conteiner-input{
+    background-color: #E1E8ED;
+    height: 35px;
+    border-radius: 30px;
+    
+}
+.oinputemsi{
+    background: transparent;
+    font-family: cursive;
+}
