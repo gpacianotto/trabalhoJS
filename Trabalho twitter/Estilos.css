@@ -26,6 +26,8 @@ a{
 #navbar3{
     grid-column-start: 3;
     grid-column-end: 4;
+    display: flex;
+    
 }
 
 /*===================== COLUNA 1 ===================== COLUNA 1 ===================== COLUNA 1 ===================== COLUNA 1 ================ */
