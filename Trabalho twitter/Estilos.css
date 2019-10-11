@@ -31,8 +31,7 @@ p{
 #navbar3{
     grid-column-start: 3;
     grid-column-end: 4;
-    display: flex;
-    
+    display: flex;    
 }
 
 /*===================== COLUNA 1 ===================== COLUNA 1 ===================== COLUNA 1 ===================== COLUNA 1 ================ */
@@ -182,14 +181,18 @@ p{
     border-radius: 20px;
 }
 
+.over2:hover{
+    background-color: rgb(245, 248, 250);
+}
+
 /*===================== COLUNA 3 ===================== COLUNA 3 ===================== COLUNA 3 ===================== COLUNA 3 ================ */
 
 .conteiner-direita{
     display: block;
     width: 100%;
     border: 2px;
-    margin-right: 173px;
     margin-left: 30px;
+    margin-right: 30px;
     padding-bottom: 5px;
 }
 
@@ -244,6 +247,7 @@ p{
     float: right;
     padding-right: 16px;
     padding-top: 5px;
+    padding-left: 0px;
 }
 
 .apv_texto_cinza_menor{
