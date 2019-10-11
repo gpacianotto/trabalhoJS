@@ -7,12 +7,15 @@ a{
     display: grid;
     grid-template-columns: 23% 45% 32%;
     align-items: flex-start;
+    height: vh;
 }
 
 #navbar{
     grid-column-start: 1;
     grid-column-end: 2;
-    
+    position: fixed;
+    padding-right: 100px; 
+    padding-left: 30px;
 }
 
 #navbar2{
@@ -35,6 +38,7 @@ a{
 	flex-direction: row;
     margin: 0;	
     justify-items: center;
+    width: 100%;
 }
 
 .tweetar{
@@ -44,7 +48,7 @@ a{
     border-radius: 50px;
     font-family: Arial;
     font-weight: bold;
-    width: 60%;
+    width: 90%;
     height: 30px;
 }
 
@@ -77,48 +81,41 @@ a{
 
 /*===================== COLUNA 2 ===================== COLUNA 2 ===================== COLUNA 2 ===================== COLUNA 2 ================ */
 
-.pagina-inicial1{
-    display: block;
-    width: 100%;
-}
-
-.pagina-inicial{
-    display: block;
-    align-items: center;
-    justify-content: flex-start;
+#header-text{
+    position: fixed;
     font-family: Arial;
     font-weight: bold;
-    font-size: 20px;
-    float: left;
-    padding-left: 15px;
+    font-size: 18px;
+    justify-items: center;
+    align-content: center;
+    position: fixed;
+    padding: 10px;
+    border: 1px solid #F5F8FA;
+    z-index: 2;
 }
 
 #destaques{
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    padding: 12px 15px 0 0;
-}
-
-.formtweet{
-    padding: 15px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.escreva{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    border: solid;
-    border-width: 1px;
-    border-color: #E9E9E9; 
-}
-
-#campotweet:focus{
-    outline-width: 0px;
+    align-content: flex-end;
+    padding-left: 440px;
 }
 
 /*===================== COLUNA 3 ===================== COLUNA 3 ===================== COLUNA 3 ===================== COLUNA 3 ================ */
+
+.conteiner-direita{
+    display: block;
+    width: 100%;
+    border: 2px;
+    margin-right: 150px;
+    margin-left: 30px;
+}
+
+.conteiner-input{
+    background-color: #E1E8ED;
+    height: 35px;
+    border-radius: 30px;
+    
+}
+.oinputemsi{
+    background: transparent;
+    font-family: cursive;
+}
