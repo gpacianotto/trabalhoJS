@@ -129,17 +129,47 @@ a{
     display: block;
     width: 100%;
     border: 2px;
-    margin-right: 150px;
+    margin-right: 173px;
     margin-left: 30px;
+    padding-bottom: 5px;
 }
 
 .conteiner-input{
+
     background-color: #E1E8ED;
-    height: 35px;
+    height: 40px;
     border-radius: 30px;
-    
+    padding: 0px;
+
 }
 .oinputemsi{
+    margin: 5px;
     background: transparent;
     font-family: cursive;
+    border: none;
+
+
+}
+.imagemlupazinha{
+    margin-left: 10px;
+    margin-top: 8px;
+}
+
+.conteiner_assuntos_para_voce{
+
+    background-color: #F5F8FA;
+    height: 400px;
+    border-radius: 30px;
+    padding: 0px;
+
+}
+
+.apv_titulo{
+    padding: : 20px;
+    position: relative;
+}
+.apv_titulo_texto{
+    font-size: 18px;
+    position: relative;
+    
 }
