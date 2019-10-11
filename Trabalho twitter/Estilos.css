@@ -75,7 +75,7 @@ a{
 #justificar{
     text-align: center;
     align-self: center;
-    padding-top: 15px;
+    padding-top: 17px;
 }
 
 
@@ -90,15 +90,53 @@ a{
     font-size: 18px;
     justify-items: center;
     align-content: center;
-    position: fixed;
     padding: 10px;
     border: 1px solid #F5F8FA;
-    
+    background: white;
 }
 
 #destaques{
     align-content: flex-end;
     padding-left: 440px;
+}
+
+#tweets{
+    padding-top: 51px;
+
+}
+
+#form-tweet{
+    padding: 8px;
+    justify-content: center;
+}
+
+#tweet{
+    height: 60px;
+    width: 520px;
+    border: none;
+    display: flex;
+    float: right;
+    font-size: 20px;
+    outline-width: 0px;
+}
+
+#itens{
+    height:45px;
+    width: 520px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.direita{
+    float: right;
+    padding: 5px 8px;
+}
+.esquerda{
+    padding-left: 70px;
+}
+#esquerda{
+    padding-left: 170px;
 }
 
 /*===================== COLUNA 3 ===================== COLUNA 3 ===================== COLUNA 3 ===================== COLUNA 3 ================ */
